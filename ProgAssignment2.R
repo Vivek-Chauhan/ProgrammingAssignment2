@@ -1,5 +1,9 @@
+## Put comments here that give an overall description of what your
+## functions do
+
 ## makeCacheMatrix accepts the values and creates a matrix from them. Please note,
-## the matrix has to be invertible/nonsingular to calculate its inverse
+## the matrix has to be an Identity Matrix (all diagonal elements 1) to calculate
+## inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL                                       ##initializing the matrix as NULL
